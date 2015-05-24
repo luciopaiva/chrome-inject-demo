@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Inject Demo",
+  "version": "0.1.0",
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["jquery.min.js", "inject.js", "index.js"],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "http://localhost:8888/"
+  ],
+  "web_accessible_resources": ["jquery.min.js", "inject.js"]
+}
