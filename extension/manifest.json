@@ -3,7 +3,7 @@
   "name": "Inject Demo",
   "version": "0.1.0",
   "content_scripts": [{
-    "matches": ["*://*/*"],
+    "matches": ["*://localhost:*/*", "*://luciopaiva.github.io/*", "*://luciopaiva.github.com/*"],
     "js": ["jquery.min.js", "inject.js", "index.js"]
   }],
   "permissions": [
