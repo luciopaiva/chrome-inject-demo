@@ -4,8 +4,7 @@
   "version": "0.1.0",
   "content_scripts": [{
     "matches": ["*://*/*"],
-    "js": ["jquery.min.js", "inject.js", "index.js"],
-    "run_at": "document_start"
+    "js": ["jquery.min.js", "inject.js", "index.js"]
   }],
   "permissions": [
     "http://localhost:8888/"
