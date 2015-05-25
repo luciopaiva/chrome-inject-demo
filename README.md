@@ -44,5 +44,7 @@ Open the console and you should see something like the following output:
 * [How can I mimic Greasemonkey/Firefox's unsafeWindow functionality in Chrome?](http://stackoverflow.com/q/1622145/778272)
 * [Building a Chrome Extension - Inject code in a page using a Content script](http://stackoverflow.com/q/9515704)
 * [Chrome extension code vs Content scripts vs Injected scripts](http://stackoverflow.com/q/9915311/778272)
-* [Why is window (and unsafeWindow) not the same from a userscript as from a \<script\> tag?](http://stackoverflow.com/q/10824697/778272) 
+* [Why is window (and unsafeWindow) not the same from a userscript as from a \<script\> tag?](http://stackoverflow.com/q/10824697/778272)
+* [onClick within Chrome Extension not working](http://stackoverflow.com/q/13591983/778272)
 * [gist: jump_out_of_chrome_sandbox.js](https://gist.github.com/tavisrudd/1174381)
+* [An Introduction to Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)
