@@ -6,8 +6,5 @@
     "matches": ["*://localhost:*/*", "*://luciopaiva.github.io/*", "*://luciopaiva.github.com/*"],
     "js": ["jquery.min.js", "inject.js", "index.js"]
   }],
-  "permissions": [
-    "http://localhost:8888/"
-  ],
   "web_accessible_resources": ["jquery.min.js", "inject.js"]
 }
